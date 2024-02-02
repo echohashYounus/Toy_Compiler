@@ -1,0 +1,24 @@
+// Variables
+x = 5;
+y = 10;
+
+// Conditional statement
+if (x < y) {
+  print(x);
+} else {
+  print(y);
+}
+
+// Loop - for demonstration
+for (i = 0; i < 10; i = i + 1) {
+  print(i);
+}
+
+// Function call 
+doSomething(x, y);
+
+// File operations 
+file myFile = open('example.txt');
+write(myFile, 'Hello, world!');
+close(myFile);
+
