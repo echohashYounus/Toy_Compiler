@@ -22,6 +22,9 @@ To compile the grammar into Java classes:
 antlr4 UpdatedLanguage.g4 -o gen
 javac -cp .:antlr4-runtime-4.9.1.jar gen/*.java TestDriver.java
 
+java -cp .:antlr4-runtime-4.9.1.jar TestDriver
+
+
 
 
     # TestDriver
