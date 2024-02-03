@@ -10,7 +10,7 @@ public class TestDriver {
         CommonTokenStream tokens = new CommonTokenStream(lexer);
         UpdatedLanguageParser parser = new UpdatedLanguageParser(tokens);
 
-        ParseTree tree = parser.program(); // Assuming 'program' is the start rule.
+        ParseTree tree = parser.program(); 
 
         // Print the tree to the console in a readable format
         System.out.println(tree.toStringTree(parser));
